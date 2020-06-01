@@ -33,4 +33,22 @@ export const MENU_ITEMS: NbMenuItem[] = [
       },
     ],
   },
+  {
+    title: 'Upload Resume',
+    icon: 'upload-outline',
+    link: '/pages/dashboard',
+    home: true,
+  },
+  {
+    title: 'View Uploaded Resume',
+    icon: 'list-outline',
+    link: '/pages/dashboard',
+    home: true,
+  },
+  {
+    title: 'Configure tags',
+    icon: 'settings-outline',
+    link: '/pages/dashboard',
+    home: true,
+  },
 ];
