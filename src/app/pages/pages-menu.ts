@@ -12,6 +12,52 @@ export const MENU_ITEMS: NbMenuItem[] = [
     group: true,
   },
   {
+    title: 'Upload Resume',
+    icon: 'upload-outline',
+    link: '/pages/dashboard',
+    home: true,
+  },
+  {
+    title: 'Tables & Data',
+    icon: 'grid-outline',
+    children: [
+      {
+        title: 'Smart Table',
+        link: '/pages/tables/smart-table',
+      },
+      {
+        title: 'Tree Grid',
+        link: '/pages/tables/tree-grid',
+      },
+    ],
+  },
+  {
+    title: 'Editors',
+    icon: 'text-outline',
+    children: [
+      {
+        title: 'TinyMCE',
+        link: '/pages/editors/tinymce',
+      },
+      {
+        title: 'CKEditor',
+        link: '/pages/editors/ckeditor',
+      },
+    ],
+  },
+  {
+    title: 'View Uploaded Resume',
+    icon: 'list-outline',
+    link: '/pages/dashboard',
+    home: true,
+  },
+  {
+    title: 'Configure tags',
+    icon: 'settings-outline',
+    link: '/pages/dashboard',
+    home: true,
+  },
+  {
     title: 'Auth',
     icon: 'lock-outline',
     children: [
@@ -32,23 +78,5 @@ export const MENU_ITEMS: NbMenuItem[] = [
         link: '/auth/reset-password',
       },
     ],
-  },
-  {
-    title: 'Upload Resume',
-    icon: 'upload-outline',
-    link: '/pages/dashboard',
-    home: true,
-  },
-  {
-    title: 'View Uploaded Resume',
-    icon: 'list-outline',
-    link: '/pages/dashboard',
-    home: true,
-  },
-  {
-    title: 'Configure tags',
-    icon: 'settings-outline',
-    link: '/pages/dashboard',
-    home: true,
   },
 ];
