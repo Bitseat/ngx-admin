@@ -18,35 +18,33 @@ export const MENU_ITEMS: NbMenuItem[] = [
     home: true,
   },
   {
-    title: 'Tables & Data',
+    title: 'Extract',
     icon: 'grid-outline',
-    children: [
-      {
-        title: 'Smart Table',
-        link: '/pages/tables/smart-table',
-      },
-      {
-        title: 'Tree Grid',
-        link: '/pages/tables/tree-grid',
-      },
-    ],
-  },
+    link: '/pages/tables/smart-table',
+  },  
+  //   children: [
+  //     {
+  //       title: 'Smart Table',
+  //       link: '/pages/tables/smart-table',
+  //     },
+  //     {
+  //       title: 'Tree Grid',
+  //       link: '/pages/tables/tree-grid',
+  //     },
+  //   ],
+  // },
+  // {
+  //   title: 'Editors',
+  //   icon: 'text-outline',
+  //   children: [
+  //     {
+  //       title: 'CKEditor',
+  //       link: '/pages/editors/ckeditor',
+  //     },
+  //   ],
+  // },
   {
-    title: 'Editors',
-    icon: 'text-outline',
-    children: [
-      {
-        title: 'TinyMCE',
-        link: '/pages/editors/tinymce',
-      },
-      {
-        title: 'CKEditor',
-        link: '/pages/editors/ckeditor',
-      },
-    ],
-  },
-  {
-    title: 'View Uploaded Resume',
+    title: 'View & Edit',
     icon: 'list-outline',
     link: '/pages/dashboard',
     home: true,
